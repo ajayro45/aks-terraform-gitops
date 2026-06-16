@@ -1,0 +1,57 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.example.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+*.crashdump
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Kubernetes
+kubeconfig
+kubeconfig.yaml
+~/.kube/
+
+# Logs
+logs/
+*.log
+
+# Secrets
+secrets/
+*.key
+*.pem
+*.crt
+sealed-secrets*.yaml
+
+# Build artifacts
+build/
+dist/
+*.o
+*.a
+
+# Node modules (for any Node.js scripts)
+node_modules/
+package-lock.json
+yarn.lock
